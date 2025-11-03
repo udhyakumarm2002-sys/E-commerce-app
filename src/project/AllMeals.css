@@ -1,0 +1,52 @@
+.all-meals-container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.all-meals-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: orange;
+  font-weight: bold;
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.all-meals-container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  padding: 0;
+  justify-items: center;
+}
+
+.all-meals-container li {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.all-meals-container li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.all-meals-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.all-meals-container h2 {
+  font-size: 18px;
+  margin-top: 12px;
+  color: skyblue;
+  font-weight: 500;
+  background-color: green;
+}
